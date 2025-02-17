@@ -13,6 +13,5 @@ def dollars_to_float(d):
 def percent_to_float(p):
 	# convert the tip percentage into a float
 	tipp = p.replace('%', '')
-	
 	return float (tipp) / 100
 main()
