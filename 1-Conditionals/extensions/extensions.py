@@ -1,3 +1,3 @@
-itsgifnotjif = input(" :3c ")
+itsgifnotjif = input(" ")
 
 if ".png" in itsgifnotjif:
