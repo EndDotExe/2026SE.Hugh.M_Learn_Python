@@ -1,3 +1,5 @@
 itsgifnotjif = input(" ")
 
-if ".png" in itsgifnotjif:
+match itsgifnotjif:
+    case "png"|"gif"|"jpeg"|"jpg"|
+        print(f"image")
