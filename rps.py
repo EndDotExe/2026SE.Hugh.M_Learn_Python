@@ -37,3 +37,5 @@ elif result == 2 and rps == "paper":
     print("Tie!")
 elif result == 3 and rps == "paper":
     print("Game Wins!")
+else:
+    print("INVALID INPUT! GAME WINS BY DEFAULT")
