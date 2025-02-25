@@ -1,6 +1,8 @@
-meow = input("Variable Name: ")
+imtweaking = input("Variable Name here: ")
 
-for letter in meow:
-    if letter.isupper():
-        print("in the stripped club, straight up jorkin it, and by 'it', heh,, lets just say... my penits")
-
+for silly in imtweaking:
+    if silly.isupper():
+        silly = silly.lower()
+        silly = "_" + silly
+    print (silly, end="")
+print("")
