@@ -11,7 +11,7 @@ fruits = [
     {"fruit": "pineapple", "calories": "50"},
     {"fruit": "peach", "calories": "60"},
     {"fruit": "plum", "calories": "70"},
-    {"fruit": "cherry", "calories": "100"},
+    {"fruit": "cherries", "calories": "100"},
     {"fruit": "cantaloupe", "calories": "50"},
     {"fruit": "honeydew", "calories": "50"},
     {"fruit": "tangerine", "calories": "50"},
