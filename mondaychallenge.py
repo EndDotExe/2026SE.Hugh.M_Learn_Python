@@ -1,5 +1,6 @@
 # create two lists
 
+
 list_one = [1, 2, 3, 4, 5]
 list_two = [9, 8, 7, 6, 10]
 lists = [list_one, list_two]
@@ -27,19 +28,38 @@ table_builder()
 
 # user input an item to a prompt and only that name from the table prints
 def get_tablenumber():
+    global tablenum
     tablenum = int(input("What item? "))
-    if tablenum >= 5:
-        print("List 2 selected")
-    elif tablenum > 0:
+
+    if tablenum == 80085 or tablenum == 69 or tablenum == 420:
+        print("real funny...")
+        print("invalid input")
+    elif tablenum > 10:
+        print("invalid input: not on list")
+    elif tablenum >= 5 or tablenum == 10:
+        print(f"List 2 selected, item: {tablenum}")
+        tablenumber_adder()
+    elif tablenum > 0 or tablenum < 5:
+        print(f"List 1 selected, item: {tablenum}")
+        tablenumber_adder()
+
+    else:
+        print("invalid input: not on list ")
+    
 
 
 # add a new item & sort the lists
 def tablenumber_adder():
-    table_addition = input("add a number --> ")
-    if table_addition == 1:
-        print("jarvis, jork it a little")
+    table_addition = []
 
-tablenumber_adder()
+    with open("table.txt", "r") as file:
+        for line in file:
+            table_addition.append(line.rstrip())
+            print("does this work?")
+
+
+get_tablenumber()
+
 
 # create a text document with the lists
 
